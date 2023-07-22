@@ -27,6 +27,17 @@ public class p10816_230722{
 
         int m = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine(), " ");
+
+        for(int i=0; i<m; i++){
+            int num = Integer.parseInt(st.nextToken());
+            if(map.containsKey(num)){
+                sb.append(map.get(num)).append(" ");
+            } else{
+                sb.append("0").append(" ");
+            }
+            
+        }
+        System.out.println(sb);
         
     }
 }
