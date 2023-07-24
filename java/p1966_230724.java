@@ -21,15 +21,16 @@ public class p1966_230724 {
             int count = 0;
             while(!queue.isEmpty()){
                 int[] front = queue.poll();
-                boolean check = false;
+                boolean check = true;
 
                 for(int i=0; i<queue.size(); i++){
                     if(front[1] < queue.get(i)[1]){
                         queue.add(front);
                         for(int j=0; j<i; j++){
                             queue.add(queue.poll());
-                            break;
                         }
+                        check = false;
+                        break;
                     }
                 }
 
