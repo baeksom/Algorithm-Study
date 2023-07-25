@@ -15,7 +15,7 @@ public class p15649_230725 {
 
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        arr = new int[m+1];
+        arr = new int[m];
         visited = new boolean[n+1];
 
         recursion(0);
