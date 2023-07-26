@@ -1,6 +1,4 @@
-import java.util.Collection;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class p1966_230724 {
