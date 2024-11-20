@@ -26,7 +26,7 @@ public class Main {
         return -1;
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        p2468_241109 T = new p2468_241109();
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         int a = sc.nextInt();
