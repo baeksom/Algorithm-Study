@@ -6,7 +6,7 @@
  * 따라서 n이 홀수일 때 상근이가 이기고, 짝수일 때 창영이가 이김
  */
 import java.io.*;
-public class Main {
+public class p9655_241120 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
