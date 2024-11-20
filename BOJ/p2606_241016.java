@@ -22,7 +22,7 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        Main T = new Main();
+        p2606_241109 T = new p2606_241109();
         Scanner sc = new Scanner(System.in);
         node = sc.nextInt();
         edge = sc.nextInt();
