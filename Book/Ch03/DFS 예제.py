@@ -1,6 +1,3 @@
-from Tools.scripts.findlinksto import visit
-
-
 def dfs(graph, v, visited):
     visited[v] = True
     print(v, end=' ')
